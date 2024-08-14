@@ -7,13 +7,15 @@ import org.testng.annotations.*;
 import api.ApiClient;
 import api.ApiRequest;
 import api.ApiResponse;
+import utils.ConfigManager;
 
 public class TestGetRequest {
 	
 	@Test
 	public void getRequestTest()
 	{
-		ApiClient client = new ApiClient("https://dummyjson.com");
+		String apiUrl = ConfigManager.getConfigValue("api.base.url");
+		ApiClient client = new ApiClient(apiUrl);
 
         Map<String, String> headers = new HashMap<>();
         headers.put("Accept", "application/json");
