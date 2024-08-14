@@ -48,6 +48,9 @@ public class ApiClient {
                 response = RestAssured.given()
                         .headers(request.getHeaders())
                         .when()
+                        
+                        
+                        
                         .delete(request.getEndpoint());
                 break;
 
