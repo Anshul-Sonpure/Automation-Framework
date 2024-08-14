@@ -32,10 +32,10 @@ This Selenium Automation Framework is a robust, scalable, and easy-to-use test a
 •	Faster Time-to-Market: By integrating with CI/CD pipelines and enabling continuous testing, the framework accelerates the release cycle and helps deliver high-quality software to market faster.
 
 ### _Use Cases_ :
-•	Functional Testing: Automate the functional test cases to validate the application's behavior against the specified requirements.
-•	Regression Testing: Perform regression testing to ensure that new changes or updates do not break the existing functionality of the application.
-•	Cross-Browser Testing: Validate the application's compatibility across different browsers and platforms to ensure a consistent user experience.
-•	End-to-End Testing: Automate end-to-end test scenarios that cover the entire workflow of the application, from start to finish.
+•	Functional Testing: Automate the functional test cases to validate the application's behavior against the specified requirements.\
+•	Regression Testing: Perform regression testing to ensure that new changes or updates do not break the existing functionality of the application.\
+•	Cross-Browser Testing: Validate the application's compatibility across different browsers and platforms to ensure a consistent user experience.\
+•	End-to-End Testing: Automate end-to-end test scenarios that cover the entire workflow of the application, from start to finish.\
 
 ### _Contributions and Feedback_
 Contributions and suggestions are welcome! If you find a bug or want to enhance the project, feel free to create a pull request. Please ensure your code follows best practices and includes appropriate tests.
