@@ -26,16 +26,17 @@ This Selenium Automation Framework is a robust, scalable, and easy-to-use test a
     - Provides capabilities for security and compliance testing, helping teams identify vulnerabilities and ensure that the application meets industry standards and regulations.
 
 ### _Benefits_ :
-•	Increased Productivity: Automating repetitive and time-consuming test cases allows the testing team to focus on more critical and complex testing scenarios.
-•	Improved Test Coverage: With support for data-driven and parallel testing, the framework ensures comprehensive test coverage across different functionalities and use cases.
-•	Reduced Maintenance Effort: The modular design and POM implementation reduce the effort required to maintain and update test scripts, leading to more efficient and cost-effective testing.
-•	Faster Time-to-Market: By integrating with CI/CD pipelines and enabling continuous testing, the framework accelerates the release cycle and helps deliver high-quality software to market faster.
+- Increased Productivity: Automating repetitive and time-consuming test cases allows the testing team to focus on more critical and complex testing scenarios.
+- Improved Test Coverage: With support for data-driven and parallel testing, the framework ensures comprehensive test coverage across different functionalities and use cases.
+- Reduced Maintenance Effort: The modular design and POM implementation reduce the effort required to maintain and update test scripts, leading to more efficient and cost-effective testing.
+- Faster Time-to-Market: By integrating with CI/CD pipelines and enabling continuous testing, the framework accelerates the release cycle and helps deliver high-quality software to market faster.
 
 ### _Use Cases_ :
-•	Functional Testing: Automate the functional test cases to validate the application's behavior against the specified requirements.\
-•	Regression Testing: Perform regression testing to ensure that new changes or updates do not break the existing functionality of the application.\
-•	Cross-Browser Testing: Validate the application's compatibility across different browsers and platforms to ensure a consistent user experience.\
-•	End-to-End Testing: Automate end-to-end test scenarios that cover the entire workflow of the application, from start to finish.\
+- Functional Testing: Automate the functional test cases to validate the application's behavior against the specified requirements.
+- Regression Testing: Perform regression testing to ensure that new changes or updates do not break the existing functionality of the application.
+- Cross-Browser Testing: Validate the application's compatibility across different browsers and platforms to ensure a consistent user experience.
+- End-to-End Testing: Automate end-to-end test scenarios that cover the entire workflow of the application, from start to finish.
+- API Testing : Automate the api test cases to validate the application's behavior against the specified requirements
 
 ### _Contributions and Feedback_
 Contributions and suggestions are welcome! If you find a bug or want to enhance the project, feel free to create a pull request. Please ensure your code follows best practices and includes appropriate tests.
