@@ -1,14 +1,12 @@
 package api;
 
 import io.restassured.RestAssured;
-import io.restassured.http.Header;
-import io.restassured.http.Headers;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import java.util.Map;
-import java.util.stream.Collectors;
+import java.io.IOException;
 
 public class ApiClient {
-
+	
 	private String baseUrl;
 
 
@@ -17,41 +15,33 @@ public class ApiClient {
 		RestAssured.baseURI = baseUrl;
 	}
 
-	public ApiResponse sendRequest(ApiRequest request) {
+	public static Response sendRequest(String endpoint, String httpMethod, Object payload, String id)
+			throws IOException {
+
+		String token = null;
 		Response response = null;
-
-		switch (request.getMethod()) {
-		case "GET":
-			response = RestAssured.given().headers(request.getHeaders()).when().get(request.getEndpoint());
+		switch (httpMethod.toLowerCase()) {
+		case "get":
+			response = RestAssured.given().when().get(endpoint).then().extract().response();
 			break;
-
-		case "POST":
-			response = RestAssured.given().headers(request.getHeaders()).body(request.getBody()).when()
-					.post(request.getEndpoint());
+		case "post":
+			response = RestAssured.given().header("Content-Type", "application/json")
+					.header("Authorization", "Bearer " + token).contentType(ContentType.JSON).accept(ContentType.JSON)
+					.body(payload).when().post(endpoint).then().extract().response();
 			break;
-
-		case "PUT":
-			response = RestAssured.given().headers(request.getHeaders()).body(request.getBody()).when()
-					.put(request.getEndpoint());
+		case "patch":
+			response = RestAssured.given().header("Content-Type", "application/json")
+					.header("Authorization", "Bearer " + token).pathParam("id", id).contentType(ContentType.JSON)
+					.body(payload).when().patch(endpoint).then().extract().response();
 			break;
-
-		case "DELETE":
-			response = RestAssured.given().headers(request.getHeaders()).when()
-
-					.delete(request.getEndpoint());
+		case "delete":
+			response = RestAssured.given().header("Content-Type", "application/json")
+					.header("Authorization", "Bearer " + token).pathParam("id", id).when().delete(endpoint).then()
+					.extract().response();
 			break;
-
 		default:
 			throw new UnsupportedOperationException("HTTP method not supported.");
 		}
-
-		Headers headers = response.getHeaders();
-		// Convert headers to a map (use a utility method)
-		Map<String, String> headersMap = headers.asList().stream()
-				.collect(Collectors.toMap(Header::getName, Header::getValue));
-
-		return new ApiResponse(response.getStatusCode(), response.getBody().asPrettyString(), headersMap);
-
+		return response;
 	}
-
 }

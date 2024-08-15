@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG:  Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
+<h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 15 16:00:40 IST 2024</td>
+<td>Started on:</td><td>Thu Aug 15 16:02:39 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5265 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3451 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,36 +78,10 @@ function toggleAllBoxes() {
 <tr>
 <td title='apiTest.GetRequestTest.getAllUsers()'><b>getAllUsers</b><br>Test class: apiTest.GetRequestTest</td>
 <td><div><pre>java.lang.AssertionError: Unexpected error occurred: HTTP method not supported.
-	at org.testng.Assert.fail(Assert.java:111)
 	at apiTest.GetRequestTest.getAllUsers(GetRequestTest.java:51)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1514955661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1514955661'><pre>java.lang.AssertionError: Unexpected error occurred: HTTP method not supported.
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace559998250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace559998250'><pre>java.lang.AssertionError: Unexpected error occurred: HTTP method not supported.
 	at org.testng.Assert.fail(Assert.java:111)
 	at apiTest.GetRequestTest.getAllUsers(GetRequestTest.java:51)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -138,7 +112,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>apiTest.GetRequestTest@4fbb001b</td></tr>
+<td>apiTest.GetRequestTest@341a8659</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -151,8 +125,13 @@ function toggleAllBoxes() {
 <tr>
 <td title='apiTest.GetRequestTest.getSingleUser()'><b>getSingleUser</b><br>Test class: apiTest.GetRequestTest</td>
 <td></td>
-<td>5</td>
-<td>apiTest.GetRequestTest@4fbb001b</td></tr>
+<td>3</td>
+<td>apiTest.GetRequestTest@341a8659</td></tr>
+<tr>
+<td title='apiTest.PostRequestTest.LoginUserToken()'><b>LoginUserToken</b><br>Test class: apiTest.PostRequestTest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequestTest@2f19f2aa</td></tr>
 </table><p>
 </body>
 </html>
