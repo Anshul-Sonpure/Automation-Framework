@@ -20,12 +20,14 @@ public class GetRequestTest {
 	public void getSingleUser()
 	{
 		try {
-			Response response = ApiClient.sendRequest("/users/1","get",null,null);
+			Response response = ApiClient.sendRequest("/users/1","get",null,null,null);
 			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
 	        logger.info("Running test method: {}", methodName);
 			logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 	        logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
 	        logger.info("*** Response Headers ***: {}", response.getHeaders());
+	        Assert.assertEquals(response.getStatusCode(), 200, "Status code is not 200");
+	        Assert.assertNotNull(response.getBody().asString(), "Response body is null");
 		} catch (Exception e) {
 	        // Log the error
 	        logger.error("An unexpected error occurred: {}", e.getMessage(), e);
@@ -37,7 +39,9 @@ public class GetRequestTest {
 	@Test
 	public void getAllUsers() {
 	    try {
-	        Response response = ApiClient.sendRequest("/users", "kill", null, null);
+	        Response response = ApiClient.sendRequest("/users", "get", null, null,null);
+	        String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
+	        logger.info("Running test method: {}", methodName);
 	        logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 	        logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
 	        logger.info("*** Response Headers ***: {}", response.getHeaders());

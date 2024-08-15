@@ -1,8 +1,106 @@
-16:02:39[main] INFO  uiLogger - Starting test method: getAllUsers
-16:02:39[main] ERROR uiLogger - An unexpected error occurred: HTTP method not supported.
-java.lang.UnsupportedOperationException: HTTP method not supported.
-	at api.ApiClient.sendRequest(ApiClient.java:43) ~[classes/:?]
-	at apiTest.GetRequestTest.getAllUsers(GetRequestTest.java:40) [test-classes/:?]
+16:58:12[main] INFO  uiLogger - Running test method: LoginUserToken
+16:58:12[main] INFO  uiLogger - *** Response Status Code ***: 400
+16:58:12[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "Unexpected token '\"', \"\"E:\\\\GitPr\"... is not valid JSON"
+}
+16:58:12[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723721292&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6VMiApb2XwaqjjdpOhZ7t30EBanug%2Fwi1drbN9o%2Bcss%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723721292&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6VMiApb2XwaqjjdpOhZ7t30EBanug%2Fwi1drbN9o%2Bcss%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+Content-Type=application/json; charset=utf-8
+Content-Length=75
+Etag=W/"4b-S9tdSxK8Aw+DhHi/KZlIwr53IMY"
+Vary=Accept-Encoding
+Date=Thu, 15 Aug 2024 11:28:12 GMT
+Via=1.1 vegur
+16:59:52[main] INFO  uiLogger - Running test method: LoginUserToken
+16:59:52[main] INFO  uiLogger - *** Response Status Code ***: 400
+16:59:52[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "Unexpected token '\"', \"\"E:\\\\autom\"... is not valid JSON"
+}
+16:59:52[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723721392&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q8rp8dZkIuCm5mJUsboYXq0xWPFo20LxoiD%2FVl8LUfk%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723721392&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q8rp8dZkIuCm5mJUsboYXq0xWPFo20LxoiD%2FVl8LUfk%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+Content-Type=application/json; charset=utf-8
+Content-Length=75
+Etag=W/"4b-AMnded0niQ0c6TaCNtNFzW5X2a0"
+Vary=Accept-Encoding
+Date=Thu, 15 Aug 2024 11:29:52 GMT
+Via=1.1 vegur
+17:01:45[main] INFO  uiLogger - Running test method: LoginUserToken
+17:01:45[main] INFO  uiLogger - *** Response Status Code ***: 400
+17:01:45[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "Unexpected token '\"', \"\"E:\\\\autom\"... is not valid JSON"
+}
+17:01:45[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723721505&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=3GNJ8GrvjZbhTKOpRv9LRDsodu220nJzXPv269%2BtRYk%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723721505&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=3GNJ8GrvjZbhTKOpRv9LRDsodu220nJzXPv269%2BtRYk%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+Content-Type=application/json; charset=utf-8
+Content-Length=75
+Etag=W/"4b-AMnded0niQ0c6TaCNtNFzW5X2a0"
+Vary=Accept-Encoding
+Date=Thu, 15 Aug 2024 11:31:45 GMT
+Via=1.1 vegur
+17:03:19[main] INFO  uiLogger - Running test method: LoginUserToken
+17:03:19[main] INFO  uiLogger - *** Response Status Code ***: 400
+17:03:19[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "Unexpected token '\"', \"\"E:\\\\autom\"... is not valid JSON"
+}
+17:03:19[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723721599&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=gA92YFDhVt0u81DGQtp56ney3F4PRT3z5a0Wf6ixYKA%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723721599&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=gA92YFDhVt0u81DGQtp56ney3F4PRT3z5a0Wf6ixYKA%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+Content-Type=application/json; charset=utf-8
+Content-Length=75
+Etag=W/"4b-AMnded0niQ0c6TaCNtNFzW5X2a0"
+Vary=Accept-Encoding
+Date=Thu, 15 Aug 2024 11:33:19 GMT
+Via=1.1 vegur
+17:09:04[main] ERROR uiLogger - An unexpected error occurred: \automationFramework\src\test\resources\data.json
+java.nio.file.NoSuchFileException: \automationFramework\src\test\resources\data.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3263) ~[?:?]
+	at api.ApiClient.sendRequest(ApiClient.java:26) ~[classes/:?]
+	at apiTest.PostRequestTest.LoginUserToken(PostRequestTest.java:38) [test-classes/:?]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.10.2.jar:7.10.2]
@@ -29,83 +127,22 @@ java.lang.UnsupportedOperationException: HTTP method not supported.
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
-16:02:39[main] ERROR uiLogger - Test method failed: getAllUsers
-16:02:39[main] INFO  uiLogger - Starting test method: getSingleUser
-16:02:42[main] INFO  uiLogger - Running test method: getSingleUser
-16:02:42[main] INFO  uiLogger - *** Response Status Code ***: 200
-16:02:42[main] INFO  uiLogger - *** Response Body ***: {
+17:10:14[main] INFO  uiLogger - Running test method: LoginUserToken
+17:10:14[main] INFO  uiLogger - *** Response Status Code ***: 200
+17:10:14[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjIwMTQsImV4cCI6MTcyMzcyNTYxNH0.3kvQlyLeSLwN4Sunelu6_7dRPNmi2Z8rIgDfhm7wAbg",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjIwMTQsImV4cCI6MTcyNjMxNDAxNH0.US56HcqycdkNrtOLuAx_gq3BdPBcf3dkJRXh8gbuvgY",
     "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
     "firstName": "Emily",
     "lastName": "Johnson",
-    "maidenName": "Smith",
-    "age": 28,
     "gender": "female",
-    "email": "emily.johnson@x.dummyjson.com",
-    "phone": "+81 965-431-3024",
-    "username": "emilys",
-    "password": "emilyspass",
-    "birthDate": "1996-5-30",
-    "image": "https://dummyjson.com/icon/emilys/128",
-    "bloodGroup": "O-",
-    "height": 193.24,
-    "weight": 63.16,
-    "eyeColor": "Green",
-    "hair": {
-        "color": "Brown",
-        "type": "Curly"
-    },
-    "ip": "42.48.100.32",
-    "address": {
-        "address": "626 Main Street",
-        "city": "Phoenix",
-        "state": "Mississippi",
-        "stateCode": "MS",
-        "postalCode": "29112",
-        "coordinates": {
-            "lat": -77.16213,
-            "lng": -92.084824
-        },
-        "country": "United States"
-    },
-    "macAddress": "47:fa:41:18:ec:eb",
-    "university": "University of Wisconsin--Madison",
-    "bank": {
-        "cardExpire": "03/26",
-        "cardNumber": "9289760655481815",
-        "cardType": "Elo",
-        "currency": "CNY",
-        "iban": "YPUXISOBI7TTHPK2BR3HAIXL"
-    },
-    "company": {
-        "department": "Engineering",
-        "name": "Dooley, Kozey and Cronin",
-        "title": "Sales Manager",
-        "address": {
-            "address": "263 Tenth Street",
-            "city": "San Francisco",
-            "state": "Wisconsin",
-            "stateCode": "WI",
-            "postalCode": "37657",
-            "coordinates": {
-                "lat": 71.814525,
-                "lng": -161.150263
-            },
-            "country": "United States"
-        }
-    },
-    "ein": "977-175",
-    "ssn": "900-590-289",
-    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36",
-    "crypto": {
-        "coin": "Bitcoin",
-        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
-        "network": "Ethereum (ERC20)"
-    },
-    "role": "admin"
+    "image": "https://dummyjson.com/icon/emilys/128"
 }
-16:02:42[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
-Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723717962&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=iSyKzvK8Cmjura5FByPGwXTeCnwQ%2BrOF8CaVu0AMRNA%3D"}]}
-Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723717962&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=iSyKzvK8Cmjura5FByPGwXTeCnwQ%2BrOF8CaVu0AMRNA%3D
+17:10:14[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723722014&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=gpJrwtUUR6TOlK6GRFs78aTYcUp6rMk7k9kbgXpIYi8%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723722014&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=gpJrwtUUR6TOlK6GRFs78aTYcUp6rMk7k9kbgXpIYi8%3D
 Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection=keep-alive
 Access-Control-Allow-Origin=*
@@ -117,14 +154,84 @@ X-Content-Type-Options=nosniff
 X-Xss-Protection=1; mode=block
 X-Ratelimit-Limit=100
 X-Ratelimit-Remaining=99
-Date=Thu, 15 Aug 2024 10:32:42 GMT
-X-Ratelimit-Reset=1723717971
+Date=Thu, 15 Aug 2024 11:40:14 GMT
+X-Ratelimit-Reset=1723722021
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjIwMTQsImV4cCI6MTcyMzcyNTYxNH0.3kvQlyLeSLwN4Sunelu6_7dRPNmi2Z8rIgDfhm7wAbg; Max-Age=3600; Path=/; Expires=Thu, 15 Aug 2024 12:40:14 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjIwMTQsImV4cCI6MTcyNjMxNDAxNH0.US56HcqycdkNrtOLuAx_gq3BdPBcf3dkJRXh8gbuvgY; Max-Age=3600; Path=/; Expires=Thu, 15 Aug 2024 12:40:14 GMT; HttpOnly; Secure
 Content-Type=application/json; charset=utf-8
-Etag=W/"57b-eBF3JfwanM/U4Wy609CPdIf9zRA"
+Content-Length=924
+Etag=W/"39c-rqyIb2pNWTJ7oaCvf9A/wHqjtHk"
 Vary=Accept-Encoding
-Content-Encoding=gzip
-Transfer-Encoding=chunked
 Via=1.1 vegur
-16:02:42[main] INFO  uiLogger - Test method passed: getSingleUser
-16:02:42[main] INFO  uiLogger - Starting test method: LoginUserToken
-16:02:42[main] INFO  uiLogger - Test method passed: LoginUserToken
+17:17:18[main] INFO  uiLogger - Running test method: LoginUserToken
+17:17:18[main] INFO  uiLogger - *** Response Status Code ***: 200
+17:17:18[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjI0MzcsImV4cCI6MTcyMzcyNjAzN30.415rabvgPFpvLDNBcDhAcO2g5vAomDySDkKlayWDll8",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjI0MzcsImV4cCI6MTcyNjMxNDQzN30.mgDO6xnWU_N5nTVA33Wm4OmUYrLgufo628UkxkfCD24",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+17:17:18[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723722437&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=njechAahhzhTVFTW30AGYk%2BwyxezJ5p9%2F6kjUx%2Bt7Eg%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723722437&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=njechAahhzhTVFTW30AGYk%2BwyxezJ5p9%2F6kjUx%2Bt7Eg%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Thu, 15 Aug 2024 11:47:17 GMT
+X-Ratelimit-Reset=1723722441
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjI0MzcsImV4cCI6MTcyMzcyNjAzN30.415rabvgPFpvLDNBcDhAcO2g5vAomDySDkKlayWDll8; Max-Age=3600; Path=/; Expires=Thu, 15 Aug 2024 12:47:17 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjI0MzcsImV4cCI6MTcyNjMxNDQzN30.mgDO6xnWU_N5nTVA33Wm4OmUYrLgufo628UkxkfCD24; Max-Age=3600; Path=/; Expires=Thu, 15 Aug 2024 12:47:17 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=924
+Etag=W/"39c-4Mq6uZ9jIY287iGXLSVn0731oaA"
+Vary=Accept-Encoding
+Via=1.1 vegur
+17:17:46[main] INFO  uiLogger - Running test method: LoginUserToken
+17:17:46[main] INFO  uiLogger - *** Response Status Code ***: 200
+17:17:46[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjI0NjUsImV4cCI6MTcyMzcyNjA2NX0.VsrgUWVociW7y67wMXuWKSOloAR6_KNbR-dD7J78x90",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjI0NjUsImV4cCI6MTcyNjMxNDQ2NX0.7YvhCT-mAiyqYmT7pEJRG8BAl8CMk5BfVq9UjSduyaA",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+17:17:46[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723722465&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0HYkSp5xPDEY9hW3gVAgkIuM71xVQR2jreJ6%2BGKO%2Bxc%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723722465&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0HYkSp5xPDEY9hW3gVAgkIuM71xVQR2jreJ6%2BGKO%2Bxc%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Thu, 15 Aug 2024 11:47:45 GMT
+X-Ratelimit-Reset=1723722471
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjI0NjUsImV4cCI6MTcyMzcyNjA2NX0.VsrgUWVociW7y67wMXuWKSOloAR6_KNbR-dD7J78x90; Max-Age=3600; Path=/; Expires=Thu, 15 Aug 2024 12:47:45 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM3MjI0NjUsImV4cCI6MTcyNjMxNDQ2NX0.7YvhCT-mAiyqYmT7pEJRG8BAl8CMk5BfVq9UjSduyaA; Max-Age=3600; Path=/; Expires=Thu, 15 Aug 2024 12:47:45 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=924
+Etag=W/"39c-mNJBRlZVbK4NrDps2MUgiToBCPo"
+Vary=Accept-Encoding
+Via=1.1 vegur
