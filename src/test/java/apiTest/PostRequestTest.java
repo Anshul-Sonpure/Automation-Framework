@@ -24,14 +24,13 @@ public class PostRequestTest {
 	@Test
 	public void LoginUserToken() {
 		try {
-
-			String methodName = new Object() {
-			}.getClass().getEnclosingMethod().getName();
+				
+			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
+	        logger.info("Running test method: {}", methodName);
 			Response response = ApiClient.sendRequest("auth/login", "post", loginUser, null, null);
 			String token = response.body().jsonPath().getString("token").toString();
+			logger.info("Login User Token written in LoginUserToken.txt");
 	        WriteFile.writeToFile("./src/test/resources/LoginUserToken.txt",token);
-			
-			
 			logger.info("Running test method: {}", methodName);
 			logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 			logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
