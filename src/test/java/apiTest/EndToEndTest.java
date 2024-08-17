@@ -115,7 +115,7 @@ public class EndToEndTest {
 			logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 			logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
 			logger.info("*** Response Headers ***: {}", response.getHeaders());
-			Assert.assertEquals(response.getStatusCode(), 201, "Status code is not 200");
+			Assert.assertEquals(response.getStatusCode(), 201, "Status code is not 201");
 			Assert.assertNotNull(response.getBody().asString(), "Response body is null");
 			
 		} catch (IOException e) {

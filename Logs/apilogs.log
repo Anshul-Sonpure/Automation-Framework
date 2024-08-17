@@ -3850,3 +3850,203 @@ Vary=Accept-Encoding
 Content-Encoding=gzip
 Transfer-Encoding=chunked
 Via=1.1 vegur
+13:18:37[main] INFO  uiLogger - Running test method: postUserPost
+13:18:39[main] INFO  uiLogger - *** Response Status Code ***: 400
+13:18:39[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "User id is required"
+}
+13:18:39[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723880919&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6x%2F%2BvvWYCfIVgaVoE9TmnV0XJ4jZUr%2FRIy1LnjkGrJw%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723880919&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6x%2F%2BvvWYCfIVgaVoE9TmnV0XJ4jZUr%2FRIy1LnjkGrJw%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 07:48:39 GMT
+X-Ratelimit-Reset=1723880930
+Content-Type=application/json; charset=utf-8
+Content-Length=33
+Etag=W/"21-9Tnvknh4Qjxdm7i37qdqaZEPeMU"
+Vary=Accept-Encoding
+Via=1.1 vegur
+13:20:11[main] INFO  uiLogger - Running test method: postUserPost
+13:20:13[main] INFO  uiLogger - *** Response Status Code ***: 400
+13:20:13[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "User id is required"
+}
+13:20:13[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723881013&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6aFFbSA4LfQgg%2BCPmYsuvHnB3Tti4VMFsyH9lg5a2EY%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723881013&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6aFFbSA4LfQgg%2BCPmYsuvHnB3Tti4VMFsyH9lg5a2EY%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 07:50:13 GMT
+X-Ratelimit-Reset=1723881020
+Content-Type=application/json; charset=utf-8
+Content-Length=33
+Etag=W/"21-9Tnvknh4Qjxdm7i37qdqaZEPeMU"
+Vary=Accept-Encoding
+Via=1.1 vegur
+13:21:07[main] INFO  uiLogger - Running test method: postUserPost
+13:21:09[main] INFO  uiLogger - *** Response Status Code ***: 400
+13:21:09[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "User id is required"
+}
+13:21:09[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723881069&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=npHqkFCPYIs3vhep9TSciBr0yRoA9bSNRZf0jLjZsno%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723881069&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=npHqkFCPYIs3vhep9TSciBr0yRoA9bSNRZf0jLjZsno%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 07:51:09 GMT
+X-Ratelimit-Reset=1723881080
+Content-Type=application/json; charset=utf-8
+Content-Length=33
+Etag=W/"21-9Tnvknh4Qjxdm7i37qdqaZEPeMU"
+Vary=Accept-Encoding
+Via=1.1 vegur
+13:23:06[main] INFO  uiLogger - Running test method: postUserPost
+13:23:09[main] INFO  uiLogger - *** Response Status Code ***: 201
+13:23:09[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 252,
+    "title": "I am in love with someone.",
+    "userId": 5
+}
+13:23:09[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723881189&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=LWbtgEQ0TzdHFuD1Vw%2FAmRwjyETo6F5wzXdt9ykKn8U%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723881189&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=LWbtgEQ0TzdHFuD1Vw%2FAmRwjyETo6F5wzXdt9ykKn8U%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 07:53:09 GMT
+X-Ratelimit-Reset=1723881200
+Content-Type=application/json; charset=utf-8
+Content-Length=58
+Etag=W/"3a-ynYxYrgTH8Z/k85tPVK5nMYk+xY"
+Vary=Accept-Encoding
+Via=1.1 vegur
+13:23:49[main] INFO  uiLogger - Running test method: postUserPost
+13:23:52[main] INFO  uiLogger - *** Response Status Code ***: 201
+13:23:52[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 252,
+    "title": "His mother had always taught him",
+    "body": "His mother had always taught him not to ever think of himself as better than others. He'd tried to live by this motto. He never looked down on those who were less fortunate or who had less money than him. But the stupidity of the group of people he was talking to made him change his mind.",
+    "userId": 121,
+    "tags": [
+        "history",
+        "american",
+        "crime"
+    ],
+    "reactions": {
+        "likes": 192,
+        "dislikes": 25
+    }
+}
+13:23:52[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723881232&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=GOmMp2sx%2BfmoIG4vh87KydNw40mMys8lxQ99cl3X4%2B0%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723881232&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=GOmMp2sx%2BfmoIG4vh87KydNw40mMys8lxQ99cl3X4%2B0%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 07:53:52 GMT
+X-Ratelimit-Reset=1723881240
+Content-Type=application/json; charset=utf-8
+Content-Length=443
+Etag=W/"1bb-VSoruo33L3NuPn7W3/LPijIbqrI"
+Vary=Accept-Encoding
+Via=1.1 vegur
+13:25:55[main] INFO  uiLogger - Running test method: postProducts
+13:25:58[main] INFO  uiLogger - *** Response Status Code ***: 400
+13:25:58[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "Expected double-quoted property name in JSON at position 355"
+}
+13:25:58[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723881358&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Hb8ruy0AldtPc0IeS1mtlv6Tpk0BtkdLBS1c54mUJdw%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723881358&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Hb8ruy0AldtPc0IeS1mtlv6Tpk0BtkdLBS1c54mUJdw%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+Content-Type=application/json; charset=utf-8
+Content-Length=74
+Etag=W/"4a-Kt1BY5E/rA8pIhBq4dVYpphWdTU"
+Vary=Accept-Encoding
+Date=Sat, 17 Aug 2024 07:55:58 GMT
+Via=1.1 vegur
+13:27:18[main] INFO  uiLogger - Running test method: postProducts
+13:27:21[main] INFO  uiLogger - *** Response Status Code ***: 201
+13:27:21[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 195,
+    "title": "Essence Mascara Lash Princess",
+    "price": 9.99,
+    "discountPercentage": 7.17,
+    "stock": 5,
+    "rating": 4.94,
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "category": "beauty"
+}
+13:27:21[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723881441&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=hyEtb7m7SFAGVcSI2nWqul8OWkan%2Brv3QpyYQ0Q6A88%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723881441&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=hyEtb7m7SFAGVcSI2nWqul8OWkan%2Brv3QpyYQ0Q6A88%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 07:57:21 GMT
+X-Ratelimit-Reset=1723881450
+Content-Type=application/json; charset=utf-8
+Content-Length=327
+Etag=W/"147-6gg0JNfvhWv4BZfg7UVdHqNTXXY"
+Vary=Accept-Encoding
+Via=1.1 vegur
