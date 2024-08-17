@@ -4,37 +4,49 @@
 		<Property name="logPath">logs</Property>
 	</Properties>
 	<Appenders>
-		<RollingFile name="file" fileName="Logs/apilogs.log"
-			filePattern="logs/logdemo-%d{HH-mm-ss-SSS}.log">
+		<RollingFile name="file1" fileName="Logs/apilogs.log"
+			filePattern="logs/apilogs-%d{yyyy-MM-dd}.log">
 			<PatternLayout>
 				<pattern>%d{HH:mm:ss}[%t] %-5level %logger{36} - %msg%n </pattern>
 			</PatternLayout>
-			<SizeBasedTriggeringPolicy size="500 KB" />
+			<SizeBasedTriggeringPolicy size="100 KB" />
 		</RollingFile>
 
 		<RollingFile name="file2" fileName="Logs/uilogs.log"
-			filePattern="logs/logdemo-%d{HH-mm-ss-SSS}.log">
+			filePattern="logs/uilogs-%d{yyyy-MM-dd}.log">
 			<PatternLayout>
 				<pattern>%d{HH:mm:ss}[%t] %-5level %logger{36} - %msg%n </pattern>
 			</PatternLayout>
-			<SizeBasedTriggeringPolicy size="500 KB" />
+			<SizeBasedTriggeringPolicy size="100 KB" />
+		</RollingFile>
+		
+		<RollingFile name="file3" fileName="Logs/SecurityTestlogs.log"
+			filePattern="logs/SecTestlogs-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>%d{HH:mm:ss}[%t] %-5level %logger{36} - %msg%n </pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="100 KB" />
 		</RollingFile>
 
 	</Appenders>
 	<Loggers>
 		<Logger name="uiLogger" level="info" additivity="false">
 			<!-- <AppenderRef ref="console" /> -->
-			<AppenderRef ref="file" />
+			<AppenderRef ref="file1" />
 		</Logger>
 
-
+		<Logger name="secTestlogger" level="info" additivity="false">
+			<!-- <AppenderRef ref="console" /> -->
+			<AppenderRef ref="file3" />
+		</Logger>
 		<Logger name="apiLogger" level="info" additivity="false">
 
 			<AppenderRef ref="file2" />
 		</Logger>
 		<Root level="info">
+			<AppenderRef ref="file1" />
 			<AppenderRef ref="file2" />
-			<AppenderRef ref="file" />
+			<AppenderRef ref="file3" />
 		</Root>
 
 	</Loggers>

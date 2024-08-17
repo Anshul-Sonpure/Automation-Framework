@@ -24,8 +24,7 @@ public class PostRequestTest {
 	public void postUserPost()
 	{
 		try {
-			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
+			
 			File Posts = new File("src/test/resources/addPost.json");
 			Response response = ApiClient.sendRequest("/posts/add","post",Posts,null,null);
 			
@@ -47,8 +46,7 @@ public class PostRequestTest {
 	public void postProducts()
 	{
 		try {
-			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
+			
 			File Product = new File("src/test/resources/addProduct.json");
 			Response response = ApiClient.sendRequest("/products/add","post",Product,null,null);
 			

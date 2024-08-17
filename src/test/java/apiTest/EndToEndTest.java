@@ -29,8 +29,6 @@ public class EndToEndTest {
 	public void getLoginUserToken() {
 		try {
 				
-			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 	        File loginUser = new File("src/test/resources/loginUser.json");
 			Response response = ApiClient.sendRequest("/auth/login", "post", loginUser, null, null);
 			String token = response.body().jsonPath().getString("token").toString();
@@ -60,8 +58,6 @@ public class EndToEndTest {
 	    	Path path = Paths.get("./src/test/resources/LoginUserToken.txt");
 			String token = Files.readString(path);
 	        Response response = ApiClient.sendRequest("/user/me", "get", null, null,token);
-	        String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 	        logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 	        logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
 	        logger.info("*** Response Headers ***: {}", response.getHeaders());
@@ -86,8 +82,6 @@ public class EndToEndTest {
 	    	payload.put("expiresInMins",45);
 	    	
 	        Response response = ApiClient.sendRequest("/auth/refresh", "post", payload, null,null);
-	        String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 	        logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 	        logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
 	        logger.info("*** Response Headers ***: {}", response.getHeaders());
@@ -106,9 +100,6 @@ public class EndToEndTest {
 	public void addUser()
 	{
 		try {
-			
-			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 	        File addUser = new File("src/test/resources/addUser.json");
 			Response response = ApiClient.sendRequest("/users/add", "post",addUser, null, null);
 			logger.info("User Added");
@@ -136,10 +127,6 @@ public class EndToEndTest {
 			updateUser.put("firstName","Elliot");
 			updateUser.put("lastName","Anderson");
 			updateUser.put("age",28);
-			
-			
-			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 	        
 			Response response = ApiClient.sendRequest("/users/2", "put",updateUser, null, null);
 			logger.info("User Details Updated");
@@ -162,10 +149,6 @@ public class EndToEndTest {
 	public void deleteUserDetails()
 	{
 		try {
-			
-			
-			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 	        
 			Response response = ApiClient.sendRequest("/users", "delete",null, "4", null);
 			logger.info("User Deleted");

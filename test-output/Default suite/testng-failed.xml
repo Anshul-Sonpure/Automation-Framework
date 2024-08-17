@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTest.PostRequestTest">
+      <class name="securityTest.AppSecurityTest">
         <methods>
-          <include name="postProducts"/>
+          <include name="tearDown"/>
+          <include name="SecurityTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- apiTest.PostRequestTest -->
+      </class> <!-- securityTest.AppSecurityTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

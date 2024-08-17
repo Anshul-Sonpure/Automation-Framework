@@ -25,8 +25,6 @@ public class GetRequestTest {
 	{
 		try {
 			Response response = ApiClient.sendRequest("/users/1","get",null,null,null);
-			String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 			logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 	        logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
 	        logger.info("*** Response Headers ***: {}", response.getHeaders());
@@ -44,8 +42,6 @@ public class GetRequestTest {
 	public void getAllUsers() {
 	    try {
 	        Response response = ApiClient.sendRequest("/users", "get", null, null,null);
-	        String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 	        logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 	        logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
 	        logger.info("*** Response Headers ***: {}", response.getHeaders());
@@ -68,8 +64,6 @@ public class GetRequestTest {
 	    	String user ="Michael";
 	    	
 	        Response response = ApiClient.sendRequest("/users/search?q="+user, "get", null, null,null);
-	        String methodName = new Object(){}.getClass().getEnclosingMethod().getName();
-	        logger.info("Running test method: {}", methodName);
 	        logger.info("*** Response Status Code ***: {}", response.getStatusCode());
 	        logger.info("*** Response Body ***: {}", response.getBody().prettyPrint());
 	        logger.info("*** Response Headers ***: {}", response.getHeaders());
