@@ -2672,3 +2672,1181 @@ Vary=Accept-Encoding
 Content-Encoding=gzip
 Transfer-Encoding=chunked
 Via=1.1 vegur
+11:32:30[main] INFO  uiLogger - Running test method: addUser
+11:32:35[main] INFO  uiLogger - User Added
+11:32:35[main] INFO  uiLogger - *** Response Status Code ***: 201
+11:32:35[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 209,
+    "firstName": "",
+    "lastName": "",
+    "maidenName": "",
+    "age": "43",
+    "gender": "",
+    "email": "",
+    "phone": "",
+    "username": "",
+    "password": "",
+    "birthDate": "",
+    "image": "",
+    "bloodGroup": "",
+    "height": null,
+    "weight": null,
+    "eyeColor": "",
+    "hair": {
+        "color": "",
+        "type": ""
+    },
+    "domain": "",
+    "ip": "",
+    "address": {
+        "address": "",
+        "city": "",
+        "coordinates": {
+            "lat": null,
+            "lng": null
+        },
+        "postalCode": "",
+        "state": ""
+    },
+    "macAddress": "",
+    "university": "",
+    "bank": {
+        "cardExpire": "",
+        "cardNumber": "",
+        "cardType": "",
+        "currency": "",
+        "iban": ""
+    },
+    "company": {
+        "address": {
+            "address": "",
+            "city": "",
+            "coordinates": {
+                "lat": null,
+                "lng": null
+            },
+            "postalCode": "",
+            "state": ""
+        },
+        "department": "",
+        "name": "",
+        "title": ""
+    },
+    "ein": "",
+    "ssn": "",
+    "userAgent": ""
+}
+11:32:35[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723874557&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=mgtPD7fiMndJ9sRDLUXIMzanqGt%2BWVdIV47pfr4v1xE%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723874557&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=mgtPD7fiMndJ9sRDLUXIMzanqGt%2BWVdIV47pfr4v1xE%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:02:37 GMT
+X-Ratelimit-Reset=1723874560
+Content-Type=application/json; charset=utf-8
+Content-Length=655
+Etag=W/"28f-PIYNN52DNgv0TYAP3M8h0c/Y38M"
+Vary=Accept-Encoding
+Via=1.1 vegur
+11:32:57[main] INFO  uiLogger - Running test method: LoginUserToken
+11:33:02[main] INFO  uiLogger - Login User Token written in LoginUserToken.txt
+11:33:02[main] INFO  uiLogger - Running test method: LoginUserToken
+11:33:02[main] INFO  uiLogger - *** Response Status Code ***: 200
+11:33:02[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzQ1ODQsImV4cCI6MTcyMzg3ODE4NH0.tQ9rsYKOTpOlW_yUgrZTufs6n2B6QdzU6j9v8NQayNY",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzQ1ODQsImV4cCI6MTcyNjQ2NjU4NH0.eBmLXnLleMQ6TtgfI51mLIki6O_f0tJgHlB3gAtfkm0",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+11:33:02[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723874584&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=I3Flv%2BdTyv9gG1I9VZaNTd96FLKkfwb4pk1JMF9hADI%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723874584&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=I3Flv%2BdTyv9gG1I9VZaNTd96FLKkfwb4pk1JMF9hADI%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:03:04 GMT
+X-Ratelimit-Reset=1723874590
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzQ1ODQsImV4cCI6MTcyMzg3ODE4NH0.tQ9rsYKOTpOlW_yUgrZTufs6n2B6QdzU6j9v8NQayNY; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:03:04 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzQ1ODQsImV4cCI6MTcyNjQ2NjU4NH0.eBmLXnLleMQ6TtgfI51mLIki6O_f0tJgHlB3gAtfkm0; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:03:04 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=924
+Etag=W/"39c-oAwtN0Z1hv1mlAZ2nqwJoauzqbU"
+Vary=Accept-Encoding
+Via=1.1 vegur
+11:33:02[main] INFO  uiLogger - Running test method: addUser
+11:33:03[main] INFO  uiLogger - User Added
+11:33:03[main] INFO  uiLogger - *** Response Status Code ***: 201
+11:33:03[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 209,
+    "firstName": "",
+    "lastName": "",
+    "maidenName": "",
+    "age": "43",
+    "gender": "",
+    "email": "",
+    "phone": "",
+    "username": "",
+    "password": "",
+    "birthDate": "",
+    "image": "",
+    "bloodGroup": "",
+    "height": null,
+    "weight": null,
+    "eyeColor": "",
+    "hair": {
+        "color": "",
+        "type": ""
+    },
+    "domain": "",
+    "ip": "",
+    "address": {
+        "address": "",
+        "city": "",
+        "coordinates": {
+            "lat": null,
+            "lng": null
+        },
+        "postalCode": "",
+        "state": ""
+    },
+    "macAddress": "",
+    "university": "",
+    "bank": {
+        "cardExpire": "",
+        "cardNumber": "",
+        "cardType": "",
+        "currency": "",
+        "iban": ""
+    },
+    "company": {
+        "address": {
+            "address": "",
+            "city": "",
+            "coordinates": {
+                "lat": null,
+                "lng": null
+            },
+            "postalCode": "",
+            "state": ""
+        },
+        "department": "",
+        "name": "",
+        "title": ""
+    },
+    "ein": "",
+    "ssn": "",
+    "userAgent": ""
+}
+11:33:03[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723874586&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=K15c9ZuOHh73l5L8JwJ1qMfxG4UoxRPMm5ReEGrp2CM%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723874586&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=K15c9ZuOHh73l5L8JwJ1qMfxG4UoxRPMm5ReEGrp2CM%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=98
+Date=Sat, 17 Aug 2024 06:03:06 GMT
+X-Ratelimit-Reset=1723874590
+Content-Type=application/json; charset=utf-8
+Content-Length=655
+Etag=W/"28f-PIYNN52DNgv0TYAP3M8h0c/Y38M"
+Vary=Accept-Encoding
+Via=1.1 vegur
+11:55:13[main] INFO  uiLogger - Running test method: getLoginUserToken
+11:55:17[main] INFO  uiLogger - Login User Token written in LoginUserToken.txt
+11:55:17[main] INFO  uiLogger - Running test method: getLoginUserToken
+11:55:17[main] INFO  uiLogger - *** Response Status Code ***: 200
+11:55:17[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzU5MTksImV4cCI6MTcyMzg3OTUxOX0.J0CnPPim2AyuQ6-J_vYVorLVTH_MEo6srYy0mV5FoAY",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzU5MTksImV4cCI6MTcyNjQ2NzkxOX0.6MddIF8T1jt6M_daMAfFI--JyUt-_GG0rkrluN-cOmc",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+11:55:17[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723875919&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Yis2eu%2BrLEkpHF4UdsfP3sO2Rozy%2FtEPRar%2FTd9eg54%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723875919&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Yis2eu%2BrLEkpHF4UdsfP3sO2Rozy%2FtEPRar%2FTd9eg54%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:25:19 GMT
+X-Ratelimit-Reset=1723875930
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzU5MTksImV4cCI6MTcyMzg3OTUxOX0.J0CnPPim2AyuQ6-J_vYVorLVTH_MEo6srYy0mV5FoAY; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:25:19 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzU5MTksImV4cCI6MTcyNjQ2NzkxOX0.6MddIF8T1jt6M_daMAfFI--JyUt-_GG0rkrluN-cOmc; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:25:19 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=924
+Etag=W/"39c-iMNc3MNUYqtx5OyNs/7shR4Qkfg"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:10:00[main] INFO  uiLogger - Running test method: getRefreshToken
+12:10:00[main] INFO  uiLogger - *** Response Status Code ***: 401
+12:10:00[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "Refresh token required"
+}
+12:10:00[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723876803&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=pjKWNtAa4Y0nlW7Vq0HoqUZvmqceJKA1VfFkZqGZZ5o%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723876803&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=pjKWNtAa4Y0nlW7Vq0HoqUZvmqceJKA1VfFkZqGZZ5o%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:40:03 GMT
+X-Ratelimit-Reset=1723876810
+Content-Type=application/json; charset=utf-8
+Content-Length=36
+Etag=W/"24-i0HsBydEpfkyDRtf3CsRhDiIlP0"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:12:06[main] INFO  uiLogger - Running test method: getLoginUserToken
+12:12:10[main] INFO  uiLogger - Login User Token written in LoginUserToken.txt
+12:12:10[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:12:10[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzY5MzIsImV4cCI6MTcyMzg4MDUzMn0.WIhjy7ntA3h_66LHZUlLl_uebWs0Lr6PCFE-xjZ0YQE",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzY5MzIsImV4cCI6MTcyNjQ2ODkzMn0.pf5Y6KdEEQNznkVDyCar7gWdr_jvJqJ6RYq8jFYFkOY",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+12:12:10[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723876932&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=wsvjGl2Z6HAQKRJnkRf%2Ff1YKI7lalTCgS9hua89KkZ4%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723876932&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=wsvjGl2Z6HAQKRJnkRf%2Ff1YKI7lalTCgS9hua89KkZ4%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:42:12 GMT
+X-Ratelimit-Reset=1723876940
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzY5MzIsImV4cCI6MTcyMzg4MDUzMn0.WIhjy7ntA3h_66LHZUlLl_uebWs0Lr6PCFE-xjZ0YQE; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:42:12 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzY5MzIsImV4cCI6MTcyNjQ2ODkzMn0.pf5Y6KdEEQNznkVDyCar7gWdr_jvJqJ6RYq8jFYFkOY; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:42:12 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=924
+Etag=W/"39c-CmNmxeOQDIEhH+bP403aSmOX2Rs"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:12:25[main] INFO  uiLogger - Running test method: getRefreshToken
+12:12:25[main] INFO  uiLogger - *** Response Status Code ***: 401
+12:12:25[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "Refresh token required"
+}
+12:12:25[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723876948&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0idbNw26SuurEPHJb81VvjBAVvYsnTrR4Zl97k2DS40%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723876948&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=0idbNw26SuurEPHJb81VvjBAVvYsnTrR4Zl97k2DS40%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:42:28 GMT
+X-Ratelimit-Reset=1723876950
+Content-Type=application/json; charset=utf-8
+Content-Length=36
+Etag=W/"24-i0HsBydEpfkyDRtf3CsRhDiIlP0"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:13:17[main] INFO  uiLogger - Running test method: getLoginUserToken
+12:13:21[main] INFO  uiLogger - Login User Token written in LoginUserToken.txt
+12:13:21[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:13:21[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwMDMsImV4cCI6MTcyMzg4MDYwM30.lTC6MNlGw7oT7W65F3pJps-nyIcANI3NjzXX56Cnbn4",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwMDMsImV4cCI6MTcyNjQ2OTAwM30.gxR_m4oXjfpZq6-nKShcYZWBIgzzpaeu6XAV8N_hsmg",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+12:13:21[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877003&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=pUTvYyiJ8zpdObFPyuIhuS8uWHr5QuziKmvDOjbcMeg%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877003&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=pUTvYyiJ8zpdObFPyuIhuS8uWHr5QuziKmvDOjbcMeg%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:43:23 GMT
+X-Ratelimit-Reset=1723877010
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwMDMsImV4cCI6MTcyMzg4MDYwM30.lTC6MNlGw7oT7W65F3pJps-nyIcANI3NjzXX56Cnbn4; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:43:23 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwMDMsImV4cCI6MTcyNjQ2OTAwM30.gxR_m4oXjfpZq6-nKShcYZWBIgzzpaeu6XAV8N_hsmg; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:43:23 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=924
+Etag=W/"39c-E5SoY8/M57LyoqkzneHr8JJI/W8"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:13:53[main] INFO  uiLogger - Running test method: getRefreshToken
+12:13:53[main] INFO  uiLogger - *** Response Status Code ***: 401
+12:13:53[main] INFO  uiLogger - *** Response Body ***: {
+    "message": "Refresh token required"
+}
+12:13:53[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877036&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=CLWMxxDGd7bBR89kTNawJZgi87zpLkiRxkURAJ0rRv8%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877036&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=CLWMxxDGd7bBR89kTNawJZgi87zpLkiRxkURAJ0rRv8%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:43:56 GMT
+X-Ratelimit-Reset=1723877040
+Content-Type=application/json; charset=utf-8
+Content-Length=36
+Etag=W/"24-i0HsBydEpfkyDRtf3CsRhDiIlP0"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:14:33[main] INFO  uiLogger - Running test method: getLoginUserToken
+12:14:36[main] INFO  uiLogger - Login User Token written in LoginUserToken.txt
+12:14:36[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:14:36[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwNzgsImV4cCI6MTcyMzg4MDY3OH0.Cq-SQIs0QNDfTpvbQpPbqvHxSwmK9QJhgpeBj6D3oNY",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwNzgsImV4cCI6MTcyNjQ2OTA3OH0.M82pTmjvDu3ftcJ0EsbDjS83EBi1KLy6NjCUSFTtDb4",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+12:14:36[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877078&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=oePqhAgUPn%2BKz3GI34kXtQhBILwxdQ4QtMIzz7yNKuw%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877078&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=oePqhAgUPn%2BKz3GI34kXtQhBILwxdQ4QtMIzz7yNKuw%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:44:38 GMT
+X-Ratelimit-Reset=1723877080
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwNzgsImV4cCI6MTcyMzg4MDY3OH0.Cq-SQIs0QNDfTpvbQpPbqvHxSwmK9QJhgpeBj6D3oNY; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:44:38 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwNzgsImV4cCI6MTcyNjQ2OTA3OH0.M82pTmjvDu3ftcJ0EsbDjS83EBi1KLy6NjCUSFTtDb4; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:44:38 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=924
+Etag=W/"39c-Af4KoCzhW3VMYUtHkUbTaGRXMCc"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:14:37[main] INFO  uiLogger - Running test method: getRefreshToken
+12:14:37[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:14:37[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwODAsImV4cCI6MTcyMzg4MDY4MH0.9OtZHCZZtjWwbQ1AGUf5cHPfR_X9tSHT2WhKJl6QeYU",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwODAsImV4cCI6MTcyNjQ2OTA4MH0.JfCiSsc1E7kVW5hKHkzy-r8JjRzCXYQlI-83F5jzgho"
+}
+12:14:37[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877080&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=lhMXPXazFjHCRvcF0z9O55iAA9i33rWX5mF7WAeTfXw%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877080&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=lhMXPXazFjHCRvcF0z9O55iAA9i33rWX5mF7WAeTfXw%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:44:40 GMT
+X-Ratelimit-Reset=1723877090
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwODAsImV4cCI6MTcyMzg4MDY4MH0.9OtZHCZZtjWwbQ1AGUf5cHPfR_X9tSHT2WhKJl6QeYU; Max-Age=2700; Path=/; Expires=Sat, 17 Aug 2024 07:29:40 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4NzcwODAsImV4cCI6MTcyNjQ2OTA4MH0.JfCiSsc1E7kVW5hKHkzy-r8JjRzCXYQlI-83F5jzgho; Max-Age=2700; Path=/; Expires=Sat, 17 Aug 2024 07:29:40 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=750
+Etag=W/"2ee-EmlD/r6TSdI79ncwz1NbHKcp6Cg"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:19:48[main] INFO  uiLogger - Running test method: updateUserDetails
+12:19:50[main] INFO  uiLogger - User Added
+12:19:50[main] INFO  uiLogger - *** Response Status Code ***: 404
+12:19:50[main] INFO  uiLogger - *** Response Body ***: <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot POST /users/2</pre>
+  </body>
+</html>
+12:19:50[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877393&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=BLqvHc0FXcKZ1EUiUZGXqc9NosM7DQ2ZDBihh0iH64w%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877393&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=BLqvHc0FXcKZ1EUiUZGXqc9NosM7DQ2ZDBihh0iH64w%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:49:53 GMT
+X-Ratelimit-Reset=1723877400
+Content-Security-Policy=default-src 'none'
+Content-Type=text/html; charset=utf-8
+Content-Length=147
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:21:28[main] INFO  uiLogger - Running test method: updateUserDetails
+12:21:30[main] INFO  uiLogger - User Added
+12:21:30[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:21:30[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 2,
+    "firstName": "Elliot",
+    "lastName": "Anderson",
+    "maidenName": "",
+    "age": 28,
+    "gender": "male",
+    "email": "michael.williams@x.dummyjson.com",
+    "phone": "+49 258-627-6644",
+    "username": "michaelw",
+    "password": "michaelwpass",
+    "birthDate": "1989-8-10",
+    "image": "https://dummyjson.com/icon/michaelw/128",
+    "bloodGroup": "B+",
+    "height": 186.22,
+    "weight": 76.32,
+    "eyeColor": "Red",
+    "hair": {
+        "color": "",
+        "type": ""
+    },
+    "ip": "12.13.116.142",
+    "address": {
+        "address": "",
+        "city": "",
+        "coordinates": {
+            "lat": null,
+            "lng": null
+        },
+        "postalCode": "",
+        "state": ""
+    },
+    "macAddress": "79:15:78:99:60:aa",
+    "university": "Ohio State University",
+    "bank": {
+        "cardExpire": "",
+        "cardNumber": "",
+        "cardType": "",
+        "currency": "",
+        "iban": ""
+    },
+    "company": {
+        "address": {
+            "address": "",
+            "city": "",
+            "coordinates": {
+                "lat": null,
+                "lng": null
+            },
+            "postalCode": "",
+            "state": ""
+        },
+        "department": "",
+        "name": "",
+        "title": ""
+    },
+    "ein": "912-602",
+    "ssn": "108-953-962",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/97.0.1072.76 Safari/537.36"
+}
+12:21:30[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877493&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=UCXsLHevkFcwse9XASljaPtSdSFIVyIkNNo1tglKC04%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877493&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=UCXsLHevkFcwse9XASljaPtSdSFIVyIkNNo1tglKC04%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:51:33 GMT
+X-Ratelimit-Reset=1723877500
+Content-Type=application/json; charset=utf-8
+Content-Length=962
+Etag=W/"3c2-h6mJ8y8SXyOfIyNwolgPHikS+3Q"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:22:26[main] INFO  uiLogger - Running test method: updateUserDetails
+12:22:29[main] INFO  uiLogger - User Added
+12:22:29[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:22:29[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 2,
+    "firstName": "Elliot",
+    "lastName": "Anderson",
+    "maidenName": "",
+    "age": 28,
+    "gender": "male",
+    "email": "michael.williams@x.dummyjson.com",
+    "phone": "+49 258-627-6644",
+    "username": "michaelw",
+    "password": "michaelwpass",
+    "birthDate": "1989-8-10",
+    "image": "https://dummyjson.com/icon/michaelw/128",
+    "bloodGroup": "B+",
+    "height": 186.22,
+    "weight": 76.32,
+    "eyeColor": "Red",
+    "hair": {
+        "color": "",
+        "type": ""
+    },
+    "ip": "12.13.116.142",
+    "address": {
+        "address": "",
+        "city": "",
+        "coordinates": {
+            "lat": null,
+            "lng": null
+        },
+        "postalCode": "",
+        "state": ""
+    },
+    "macAddress": "79:15:78:99:60:aa",
+    "university": "Ohio State University",
+    "bank": {
+        "cardExpire": "",
+        "cardNumber": "",
+        "cardType": "",
+        "currency": "",
+        "iban": ""
+    },
+    "company": {
+        "address": {
+            "address": "",
+            "city": "",
+            "coordinates": {
+                "lat": null,
+                "lng": null
+            },
+            "postalCode": "",
+            "state": ""
+        },
+        "department": "",
+        "name": "",
+        "title": ""
+    },
+    "ein": "912-602",
+    "ssn": "108-953-962",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/97.0.1072.76 Safari/537.36"
+}
+12:22:29[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877552&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=oBTlF1gFzdI4VxfgVREozNEwpU9gpv7%2FTLIikbUNfjU%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877552&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=oBTlF1gFzdI4VxfgVREozNEwpU9gpv7%2FTLIikbUNfjU%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:52:32 GMT
+X-Ratelimit-Reset=1723877560
+Content-Type=application/json; charset=utf-8
+Content-Length=962
+Etag=W/"3c2-h6mJ8y8SXyOfIyNwolgPHikS+3Q"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:25:12[main] INFO  uiLogger - Running test method: updateUserDetails
+12:25:15[main] INFO  uiLogger - User Added
+12:25:15[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:25:15[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 2,
+    "firstName": "Elliot",
+    "lastName": "Anderson",
+    "maidenName": "",
+    "age": 28,
+    "gender": "male",
+    "email": "michael.williams@x.dummyjson.com",
+    "phone": "+49 258-627-6644",
+    "username": "michaelw",
+    "password": "michaelwpass",
+    "birthDate": "1989-8-10",
+    "image": "https://dummyjson.com/icon/michaelw/128",
+    "bloodGroup": "B+",
+    "height": 186.22,
+    "weight": 76.32,
+    "eyeColor": "Red",
+    "hair": {
+        "color": "",
+        "type": ""
+    },
+    "ip": "12.13.116.142",
+    "address": {
+        "address": "",
+        "city": "",
+        "coordinates": {
+            "lat": null,
+            "lng": null
+        },
+        "postalCode": "",
+        "state": ""
+    },
+    "macAddress": "79:15:78:99:60:aa",
+    "university": "Ohio State University",
+    "bank": {
+        "cardExpire": "",
+        "cardNumber": "",
+        "cardType": "",
+        "currency": "",
+        "iban": ""
+    },
+    "company": {
+        "address": {
+            "address": "",
+            "city": "",
+            "coordinates": {
+                "lat": null,
+                "lng": null
+            },
+            "postalCode": "",
+            "state": ""
+        },
+        "department": "",
+        "name": "",
+        "title": ""
+    },
+    "ein": "912-602",
+    "ssn": "108-953-962",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/97.0.1072.76 Safari/537.36"
+}
+12:25:15[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877717&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TlmAKciHyz0581S1LSKfmEG%2FGSY4X6KvI6Un4quc0Hk%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877717&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TlmAKciHyz0581S1LSKfmEG%2FGSY4X6KvI6Un4quc0Hk%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:55:17 GMT
+X-Ratelimit-Reset=1723877720
+Content-Type=application/json; charset=utf-8
+Content-Length=962
+Etag=W/"3c2-h6mJ8y8SXyOfIyNwolgPHikS+3Q"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:27:20[main] INFO  uiLogger - Running test method: addUser
+12:27:24[main] INFO  uiLogger - User Added
+12:27:24[main] INFO  uiLogger - *** Response Status Code ***: 201
+12:27:24[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 209,
+    "firstName": "Muhammad",
+    "lastName": "Ovi",
+    "maidenName": "",
+    "age": 25,
+    "gender": "",
+    "email": "",
+    "phone": "",
+    "username": "",
+    "password": "",
+    "birthDate": "",
+    "image": "",
+    "bloodGroup": "",
+    "height": null,
+    "weight": null,
+    "eyeColor": "",
+    "hair": {
+        "color": "",
+        "type": ""
+    },
+    "domain": "",
+    "ip": "",
+    "address": {
+        "address": "",
+        "city": "",
+        "coordinates": {
+            "lat": null,
+            "lng": null
+        },
+        "postalCode": "",
+        "state": ""
+    },
+    "macAddress": "",
+    "university": "",
+    "bank": {
+        "cardExpire": "",
+        "cardNumber": "",
+        "cardType": "",
+        "currency": "",
+        "iban": ""
+    },
+    "company": {
+        "address": {
+            "address": "",
+            "city": "",
+            "coordinates": {
+                "lat": null,
+                "lng": null
+            },
+            "postalCode": "",
+            "state": ""
+        },
+        "department": "",
+        "name": "",
+        "title": ""
+    },
+    "ein": "",
+    "ssn": "",
+    "userAgent": ""
+}
+12:27:24[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877847&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4SlCpAZ1LHvZ5PV7fCowQNiDTDtuYqE6OTICqaEYxoo%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877847&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4SlCpAZ1LHvZ5PV7fCowQNiDTDtuYqE6OTICqaEYxoo%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:57:27 GMT
+X-Ratelimit-Reset=1723877850
+Content-Type=application/json; charset=utf-8
+Content-Length=664
+Etag=W/"298-5fTBRkfmuHaIPhSpcgvqjhddtx8"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:27:24[main] INFO  uiLogger - Running test method: deleteUserDetails
+12:27:24[main] INFO  uiLogger - Running test method: getLoginUserToken
+12:27:26[main] INFO  uiLogger - Login User Token written in LoginUserToken.txt
+12:27:26[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:27:26[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4Nzc4NDgsImV4cCI6MTcyMzg4MTQ0OH0.A8Ie_FY_l9NE5ELUebtU6JJd3_gw7blLUmhOt7uEnxc",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4Nzc4NDgsImV4cCI6MTcyNjQ2OTg0OH0.UCqa9KV74ZzdQGmczpjhJHSFChzgeg3jkx3rLfWbf2w",
+    "id": 1,
+    "username": "emilys",
+    "email": "emily.johnson@x.dummyjson.com",
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "gender": "female",
+    "image": "https://dummyjson.com/icon/emilys/128"
+}
+12:27:26[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877848&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=LS5YQOEeFunCPGeDIscZuDhG0qK2ueU%2BaABhE82p3nw%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877848&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=LS5YQOEeFunCPGeDIscZuDhG0qK2ueU%2BaABhE82p3nw%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=98
+Date=Sat, 17 Aug 2024 06:57:28 GMT
+X-Ratelimit-Reset=1723877850
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4Nzc4NDgsImV4cCI6MTcyMzg4MTQ0OH0.A8Ie_FY_l9NE5ELUebtU6JJd3_gw7blLUmhOt7uEnxc; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:57:28 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4Nzc4NDgsImV4cCI6MTcyNjQ2OTg0OH0.UCqa9KV74ZzdQGmczpjhJHSFChzgeg3jkx3rLfWbf2w; Max-Age=3600; Path=/; Expires=Sat, 17 Aug 2024 07:57:28 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=924
+Etag=W/"39c-O6Cdnw4RZGZcTILe/CsjDXy86Xk"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:27:26[main] INFO  uiLogger - Running test method: updateUserDetails
+12:27:27[main] INFO  uiLogger - User Details Updated
+12:27:27[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:27:27[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 2,
+    "firstName": "Elliot",
+    "lastName": "Anderson",
+    "maidenName": "",
+    "age": 28,
+    "gender": "male",
+    "email": "michael.williams@x.dummyjson.com",
+    "phone": "+49 258-627-6644",
+    "username": "michaelw",
+    "password": "michaelwpass",
+    "birthDate": "1989-8-10",
+    "image": "https://dummyjson.com/icon/michaelw/128",
+    "bloodGroup": "B+",
+    "height": 186.22,
+    "weight": 76.32,
+    "eyeColor": "Red",
+    "hair": {
+        "color": "",
+        "type": ""
+    },
+    "ip": "12.13.116.142",
+    "address": {
+        "address": "",
+        "city": "",
+        "coordinates": {
+            "lat": null,
+            "lng": null
+        },
+        "postalCode": "",
+        "state": ""
+    },
+    "macAddress": "79:15:78:99:60:aa",
+    "university": "Ohio State University",
+    "bank": {
+        "cardExpire": "",
+        "cardNumber": "",
+        "cardType": "",
+        "currency": "",
+        "iban": ""
+    },
+    "company": {
+        "address": {
+            "address": "",
+            "city": "",
+            "coordinates": {
+                "lat": null,
+                "lng": null
+            },
+            "postalCode": "",
+            "state": ""
+        },
+        "department": "",
+        "name": "",
+        "title": ""
+    },
+    "ein": "912-602",
+    "ssn": "108-953-962",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/97.0.1072.76 Safari/537.36"
+}
+12:27:27[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877850&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=wwS7idOJoUpA72hCSA5SycCg6MvDbySpezNpZGLg5sk%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877850&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=wwS7idOJoUpA72hCSA5SycCg6MvDbySpezNpZGLg5sk%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 06:57:30 GMT
+X-Ratelimit-Reset=1723877860
+Content-Type=application/json; charset=utf-8
+Content-Length=962
+Etag=W/"3c2-h6mJ8y8SXyOfIyNwolgPHikS+3Q"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:27:28[main] INFO  uiLogger - Running test method: getAuthUser
+12:27:28[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:27:28[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 1,
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "maidenName": "Smith",
+    "age": 28,
+    "gender": "female",
+    "email": "emily.johnson@x.dummyjson.com",
+    "phone": "+81 965-431-3024",
+    "username": "emilys",
+    "password": "emilyspass",
+    "birthDate": "1996-5-30",
+    "image": "https://dummyjson.com/icon/emilys/128",
+    "bloodGroup": "O-",
+    "height": 193.24,
+    "weight": 63.16,
+    "eyeColor": "Green",
+    "hair": {
+        "color": "Brown",
+        "type": "Curly"
+    },
+    "ip": "42.48.100.32",
+    "address": {
+        "address": "626 Main Street",
+        "city": "Phoenix",
+        "state": "Mississippi",
+        "stateCode": "MS",
+        "postalCode": "29112",
+        "coordinates": {
+            "lat": -77.16213,
+            "lng": -92.084824
+        },
+        "country": "United States"
+    },
+    "macAddress": "47:fa:41:18:ec:eb",
+    "university": "University of Wisconsin--Madison",
+    "bank": {
+        "cardExpire": "03/26",
+        "cardNumber": "9289760655481815",
+        "cardType": "Elo",
+        "currency": "CNY",
+        "iban": "YPUXISOBI7TTHPK2BR3HAIXL"
+    },
+    "company": {
+        "department": "Engineering",
+        "name": "Dooley, Kozey and Cronin",
+        "title": "Sales Manager",
+        "address": {
+            "address": "263 Tenth Street",
+            "city": "San Francisco",
+            "state": "Wisconsin",
+            "stateCode": "WI",
+            "postalCode": "37657",
+            "coordinates": {
+                "lat": 71.814525,
+                "lng": -161.150263
+            },
+            "country": "United States"
+        }
+    },
+    "ein": "977-175",
+    "ssn": "900-590-289",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36",
+    "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+    },
+    "role": "admin"
+}
+12:27:28[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877851&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=DRmp9oy8VIV1mGM1hBPhcU89shT1oGl%2BSWBubDqo%2Fgc%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877851&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=DRmp9oy8VIV1mGM1hBPhcU89shT1oGl%2BSWBubDqo%2Fgc%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=98
+Date=Sat, 17 Aug 2024 06:57:31 GMT
+X-Ratelimit-Reset=1723877860
+Content-Type=application/json; charset=utf-8
+Etag=W/"57b-eBF3JfwanM/U4Wy609CPdIf9zRA"
+Vary=Accept-Encoding
+Content-Encoding=gzip
+Transfer-Encoding=chunked
+Via=1.1 vegur
+12:27:29[main] INFO  uiLogger - Running test method: getRefreshToken
+12:27:29[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:27:29[main] INFO  uiLogger - *** Response Body ***: {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4Nzc4NTIsImV4cCI6MTcyMzg4MTQ1Mn0.MWsPSKlpu042acCe0SFrVzPfIP8Y3a3ciFCI_JJ0Jus",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4Nzc4NTIsImV4cCI6MTcyNjQ2OTg1Mn0.XXOpXwxAF7TECV_QcxLCQE6WjmDN8cdLeN4sCk4iqOw"
+}
+12:27:29[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723877852&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cEmMwBO5i6xwkgz9c%2BlNVLPha5i17AWrlDWFs%2BxZ8LQ%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723877852&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cEmMwBO5i6xwkgz9c%2BlNVLPha5i17AWrlDWFs%2BxZ8LQ%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=97
+Date=Sat, 17 Aug 2024 06:57:32 GMT
+X-Ratelimit-Reset=1723877860
+Set-Cookie=accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4Nzc4NTIsImV4cCI6MTcyMzg4MTQ1Mn0.MWsPSKlpu042acCe0SFrVzPfIP8Y3a3ciFCI_JJ0Jus; Max-Age=2700; Path=/; Expires=Sat, 17 Aug 2024 07:42:32 GMT; HttpOnly; Secure
+Set-Cookie=refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3MjM4Nzc4NTIsImV4cCI6MTcyNjQ2OTg1Mn0.XXOpXwxAF7TECV_QcxLCQE6WjmDN8cdLeN4sCk4iqOw; Max-Age=2700; Path=/; Expires=Sat, 17 Aug 2024 07:42:32 GMT; HttpOnly; Secure
+Content-Type=application/json; charset=utf-8
+Content-Length=750
+Etag=W/"2ee-0YjPVfJq32i5EAsjT+NT5G+Zsdo"
+Vary=Accept-Encoding
+Via=1.1 vegur
+12:30:13[main] INFO  uiLogger - Running test method: deleteUserDetails
+12:31:16[main] INFO  uiLogger - Running test method: deleteUserDetails
+12:38:17[main] INFO  uiLogger - Running test method: deleteUserDetails
+12:38:20[main] INFO  uiLogger - User Deleted
+12:38:20[main] INFO  uiLogger - *** Response Status Code ***: 200
+12:38:20[main] INFO  uiLogger - *** Response Body ***: {
+    "id": 4,
+    "firstName": "James",
+    "lastName": "Davis",
+    "maidenName": "",
+    "age": 45,
+    "gender": "male",
+    "email": "james.davis@x.dummyjson.com",
+    "phone": "+49 614-958-9364",
+    "username": "jamesd",
+    "password": "jamesdpass",
+    "birthDate": "1979-5-4",
+    "image": "https://dummyjson.com/icon/jamesd/128",
+    "bloodGroup": "AB+",
+    "height": 193.31,
+    "weight": 62.1,
+    "eyeColor": "Amber",
+    "hair": {
+        "color": "Blonde",
+        "type": "Straight"
+    },
+    "ip": "101.118.131.66",
+    "address": {
+        "address": "238 Jefferson Street",
+        "city": "Seattle",
+        "state": "Pennsylvania",
+        "stateCode": "PA",
+        "postalCode": "68354",
+        "coordinates": {
+            "lat": 16.782513,
+            "lng": -139.34723
+        },
+        "country": "United States"
+    },
+    "macAddress": "10:7d:df:1f:97:58",
+    "university": "University of Southern California",
+    "bank": {
+        "cardExpire": "05/29",
+        "cardNumber": "5005519846254763",
+        "cardType": "Mastercard",
+        "currency": "INR",
+        "iban": "7N7ZH1PJ8Q4WU1K965HQQR27"
+    },
+    "company": {
+        "department": "Support",
+        "name": "Pagac and Sons",
+        "title": "Research Analyst",
+        "address": {
+            "address": "1622 Lincoln Street",
+            "city": "Fort Worth",
+            "state": "Pennsylvania",
+            "stateCode": "PA",
+            "postalCode": "27768",
+            "coordinates": {
+                "lat": 54.91193,
+                "lng": -79.498328
+            },
+            "country": "United States"
+        }
+    },
+    "ein": "904-810",
+    "ssn": "116-951-314",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+    "crypto": {
+        "coin": "Bitcoin",
+        "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+        "network": "Ethereum (ERC20)"
+    },
+    "role": "admin",
+    "isDeleted": true,
+    "deletedOn": "2024-08-17T07:08:23.381Z"
+}
+12:38:20[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723878503&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=G0LUD1IlnEZalRZebxYrw%2BomsUOx1R2AorAeyN8ENhM%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723878503&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=G0LUD1IlnEZalRZebxYrw%2BomsUOx1R2AorAeyN8ENhM%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=99
+Date=Sat, 17 Aug 2024 07:08:23 GMT
+X-Ratelimit-Reset=1723878510
+Content-Type=application/json; charset=utf-8
+Etag=W/"5b1-r8Xz8u92yY8VpqycBYgAvUSdUTk"
+Vary=Accept-Encoding
+Content-Encoding=gzip
+Transfer-Encoding=chunked
+Via=1.1 vegur

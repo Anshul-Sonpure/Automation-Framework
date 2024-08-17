@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-16T10:39:40 IST" name="Default suite" finished-at="2024-08-16T10:39:43 IST" duration-ms="3197">
+  <suite started-at="2024-08-17T12:38:17 IST" name="Default suite" finished-at="2024-08-17T12:38:20 IST" duration-ms="2942">
     <groups>
     </groups>
-    <test started-at="2024-08-16T10:39:40 IST" name="Default test" finished-at="2024-08-16T10:39:43 IST" duration-ms="3197">
-      <class name="apiTest.GetRequestTest">
-        <test-method signature="getSearchUser()[pri:0, instance:apiTest.GetRequestTest@cda4919]" started-at="2024-08-16T10:39:40 IST" name="getSearchUser" finished-at="2024-08-16T10:39:43 IST" duration-ms="3146" status="PASS">
+    <test started-at="2024-08-17T12:38:17 IST" name="Default test" finished-at="2024-08-17T12:38:20 IST" duration-ms="2942">
+      <class name="apiTest.EndToEndTest">
+        <test-method signature="deleteUserDetails()[pri:5, instance:apiTest.EndToEndTest@79c5636f]" started-at="2024-08-17T12:38:17 IST" name="deleteUserDetails" finished-at="2024-08-17T12:38:20 IST" duration-ms="2899" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getSearchUser -->
-      </class> <!-- apiTest.GetRequestTest -->
+        </test-method> <!-- deleteUserDetails -->
+      </class> <!-- apiTest.EndToEndTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

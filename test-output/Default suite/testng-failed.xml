@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTest.PostRequestTest">
+      <class name="apiTest.EndToEndTest">
         <methods>
-          <include name="LoginUserToken"/>
+          <include name="deleteUserDetails"/>
         </methods>
-      </class> <!-- apiTest.PostRequestTest -->
+      </class> <!-- apiTest.EndToEndTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

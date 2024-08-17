@@ -80,7 +80,7 @@ public class ApiClient {
                         .header("Authorization", "Bearer " + token)
                         .pathParam("id", id)
                         .when()
-                        .delete(endpoint)
+                        .delete(endpoint + "/{id}")
                         .then()
                         .extract()
                         .response();
