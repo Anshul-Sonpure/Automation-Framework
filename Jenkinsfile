@@ -3,53 +3,40 @@ pipeline {
 
     parameters {
         choice(
-            name: 'TEST_PACKAGE',
-            choices: ['api test', 'security test', 'UI test'],
-            description: 'Choose which test package to run'
+            name: 'SuiteName',
+            choices: ['uiTest', 'apiTest', 'securityTest'],
+            description: 'Choose the TestNG suite to run the Test Cases'
         )
     }
 
-    environment {
-        MAVEN_HOME = tool 'Maven' // Adjust this to your Maven installation name in Jenkins
-        JAVA_HOME = tool 'JDK' // Adjust this to your JDK installation name in Jenkins
-    }
-
     stages {
-        stage('Checkout') {
+        stage('Clean') {
             steps {
-                // Pull the code from your GitHub repository
-                git url: 'https://github.com/Anshul-Sonpure/Automation-Framework.git', branch: 'main'
-            }
-        }
-
-        stage('Build') {
-            steps {
-                // Run Maven build
-                script {
-                    def testPackage = params.TEST_PACKAGE
-                    sh "${MAVEN_HOME}/bin/mvn clean test -Dtest=**/${testPackage}/*.java"
+                echo "Cleaning the project..."
+                dir('E:/GitProjects/Automation-Framework') {
+                    bat "mvn clean"
                 }
             }
         }
-
-        stage('Post-Build Actions') {
+        stage('Build and Install') {
             steps {
-                // Publish TestNG results (if needed)
-                junit 'target/surefire-reports/*.xml'
+                echo "Building and installing the project..."
+                
+                dir('E:/GitProjects/Automation-Framework') {
+                    bat "mvn clean"
+                }
             }
         }
-    }
+        stage('Test') {
+            steps {
+                echo "Running test cases from Suite selected: ${params.SuiteName}"
+                
+                // Change to the directory where the XML files are located
+                dir('E:/GitProjects/Automation-Framework') {
+                    bat "mvn test -Dsurefire.suiteXmlFiles=E:/GitProjects/Automation-Framework/${params.SuiteName}.xml"
 
-    post {
-        always {
-            echo "Cleaning up workspace"
-            cleanWs()
-        }
-        success {
-            echo "Build successful!"
-        }
-        failure {
-            echo "Build failed!"
+                }
+            }
         }
     }
 }
