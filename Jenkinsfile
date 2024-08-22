@@ -13,33 +13,25 @@ pipeline {
         stage('Clean') {
             steps {
                 echo "Cleaning the project..."
-                dir('E:/GitProjects/Automation-Framework') {
-                    bat "mvn clean"
-                }
+                bat "mvn clean"
             }
         }
         stage('Build and Install') {
             steps {
                 echo "Building and installing the project..."
-                dir('E:/GitProjects/Automation-Framework') {
-                    bat "mvn install -DskipTests"
-                }
+                bat "mvn install -DskipTests"
             }
         }
         stage('Test') {
             steps {
                 echo "Running test cases from Suite selected: ${params.SuiteName}"
-                dir('E:/GitProjects/Automation-Framework') {
-                    bat "mvn test -Dsurefire.suiteXmlFiles=E:/GitProjects/Automation-Framework/${params.SuiteName}.xml"
-                }
+                bat "mvn test -Dsurefire.suiteXmlFiles=${params.SuiteName}.xml"
             }
         }
         stage('Check Reports') {
             steps {
                 echo "Checking if reports are generated..."
-                dir('E:/GitProjects/Automation-Framework/target') {
-                    bat "dir" // Lists all files in the target directory
-                }
+                bat "dir target" // Lists all files in the target directory
             }
         }
     }
