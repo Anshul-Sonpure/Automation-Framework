@@ -6,8 +6,8 @@
       <class name="securityTest.AppSecurityTest">
         <methods>
           <include name="tearDown"/>
-          <include name="SecurityTest"/>
           <include name="setup"/>
+          <include name="testUnauthorizedAccess"/>
         </methods>
       </class> <!-- securityTest.AppSecurityTest -->
     </classes>

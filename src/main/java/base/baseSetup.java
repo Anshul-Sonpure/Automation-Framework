@@ -1,76 +1,70 @@
 package base;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.zaproxy.clientapi.core.ApiResponse;
 import org.zaproxy.clientapi.core.ClientApi;
 import org.zaproxy.clientapi.core.ClientApiException;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ConfigManager;
 
-public class baseSetup {
-	
-	
-    static final String ZAP_API_KEY =ConfigManager.getConfigValue("ZapAPIKey");
-    public static Logger logger = LogManager.getLogger("secTestlogger");
-    public WebDriver driver;
-    private ClientApi zapAPI;
-    
-    @BeforeMethod
-    public void setup() throws InterruptedException, ClientApiException{
-    	zapAPI = new ClientApi("localhost",8080, ZAP_API_KEY);
-		
+public class baseSetup extends BrowserManager {
 
-    	String sessionName = "Session_" + System.currentTimeMillis();
-    	zapAPI.core.newSession(sessionName, "true");
-    	
-    	String proxyServerUrl = "localhost" + ":" + "8080";
-        Proxy proxy = new Proxy();
-        proxy.setHttpProxy(proxyServerUrl);
-        proxy.setSslProxy(proxyServerUrl);
+	static final String ZAP_API_KEY = ConfigManager.getConfigValue("ZapAPIKey");
+	public static Logger logger = LogManager.getLogger("secTestlogger");
+	private static ClientApi zapAPI;
+	protected static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
 
-        ChromeOptions options = new ChromeOptions();
-        options.setAcceptInsecureCerts(true);
-        options.setProxy(proxy);
-		
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver(options);
-        driver.manage().window().maximize();
-       driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-       
+	@BeforeClass
+	public static void setup() throws Exception {
 
-    }
-    
-    @AfterMethod
-    public void tearDown() throws Exception {
-        if (zapAPI != null) {
-        	
-            String title = ConfigManager.getConfigValue("AppName")+" Security Report";
-            String template = "traditional-html";
-            String description = "Security Test Report based on the Top 10 Vulnerabilites listed by OWASP";
-            String reportfilename = title+".html";
-            String targetFolder = System.getProperty("user.dir");
-            try {
-                ApiResponse res = zapAPI.reports.generate(title, template, null, description, null, null, null,null, null, reportfilename,null, targetFolder,null);
-                logger.info("Security Test Report generated for : {}",title);
-            } catch (ClientApiException ex) {
-                throw new Exception(ex);
-            }
-            driver.quit();
+		zapAPI = new ClientApi("localhost", 8080, ZAP_API_KEY);
 
-        }
-    }
+		String sessionName = "Session_" + System.currentTimeMillis();
+		zapAPI.core.newSession(sessionName, "true");
+		WebDriver driver = BrowserManager.initDriver();
+		threadLocalDriver.set(driver);
+
+		driver = getDriver();
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+	}
+
+	public static WebDriver getDriver() {
+		return threadLocalDriver.get();
+	}
+
+	@AfterClass
+	public void tearDown() throws Exception {
+	    if (zapAPI != null) {
+	        String title = ConfigManager.getConfigValue("AppName") + " Security Report";
+	        String template = "traditional-html";
+	        String description = "Security Test Report based on the Top 10 Vulnerabilities listed by OWASP";
+	        String reportFilename = title + ".html";
+	        String targetFolder = System.getProperty("user.dir");
+
+	        try {
+	            ApiResponse res = zapAPI.reports.generate(title, template, null, description, null, null, null, null, null, reportFilename, null, targetFolder, null);
+	            logger.info("Security Test Report generated for: {}", title);
+	        } catch (ClientApiException ex) {
+	            throw new Exception(ex);
+	        }
+	    }
+	    driver = getDriver();  
+	    if (driver != null) {
+	        driver.quit();  
+	        threadLocalDriver.remove(); 
+	    }
+	    
+	    ExtentManager.removeExtentTest();  
+	}
+
 
 }

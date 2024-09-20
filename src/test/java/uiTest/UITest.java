@@ -2,12 +2,15 @@ package uiTest;
 
 import org.testng.annotations.Test;
 
-public class UITest {
+import base.baseSetup;
+
+public class UITest extends baseSetup {
 	
 	@Test
 	public void uiTestCase()
 	{
-		System.out.println("This is UI Test Case");
+		
+		
 	}
 
 }

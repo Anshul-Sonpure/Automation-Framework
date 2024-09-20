@@ -1,6 +1,6 @@
-20:41:40[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
-Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723907500&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MKHJIceRdZYI4Xpn6cHe5cf1PfNTIL255PpH7NXRO5w%3D"}]}
-Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723907500&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MKHJIceRdZYI4Xpn6cHe5cf1PfNTIL255PpH7NXRO5w%3D
+19:51:33[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724682094&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=PM5WUtFOqTIhcqrbdNGKwvfb7vwKIaudbuIhBaYbmtc%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1724682094&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=PM5WUtFOqTIhcqrbdNGKwvfb7vwKIaudbuIhBaYbmtc%3D
 Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection=keep-alive
 Access-Control-Allow-Origin=*
@@ -11,20 +11,191 @@ X-Download-Options=noopen
 X-Content-Type-Options=nosniff
 X-Xss-Protection=1; mode=block
 X-Ratelimit-Limit=100
-X-Ratelimit-Remaining=98
-Date=Sat, 17 Aug 2024 15:11:40 GMT
-X-Ratelimit-Reset=1723907510
+X-Ratelimit-Remaining=94
+Date=Mon, 26 Aug 2024 14:21:34 GMT
+X-Ratelimit-Reset=1724682098
+Content-Type=application/json; charset=utf-8
+Etag=W/"a36f-Hyqmc+8fsEhjdF4H4imH3z/VXKo"
+Vary=Accept-Encoding
+Content-Encoding=gzip
+Transfer-Encoding=chunked
+Via=1.1 vegur
+19:51:33[main] INFO  uiLogger - Test method passed: getAllUsers
+19:51:33[main] INFO  uiLogger - Starting test method: getSearchUser
+19:51:34[main] INFO  uiLogger - *** Response Status Code ***: 200
+19:51:34[main] INFO  uiLogger - *** Response Body ***: {
+    "users": [
+        {
+            "id": 2,
+            "firstName": "Michael",
+            "lastName": "Williams",
+            "maidenName": "",
+            "age": 35,
+            "gender": "male",
+            "email": "michael.williams@x.dummyjson.com",
+            "phone": "+49 258-627-6644",
+            "username": "michaelw",
+            "password": "michaelwpass",
+            "birthDate": "1989-8-10",
+            "image": "https://dummyjson.com/icon/michaelw/128",
+            "bloodGroup": "B+",
+            "height": 186.22,
+            "weight": 76.32,
+            "eyeColor": "Red",
+            "hair": {
+                "color": "Green",
+                "type": "Straight"
+            },
+            "ip": "12.13.116.142",
+            "address": {
+                "address": "385 Fifth Street",
+                "city": "Houston",
+                "state": "Alabama",
+                "stateCode": "AL",
+                "postalCode": "38807",
+                "coordinates": {
+                    "lat": 22.815468,
+                    "lng": 115.608581
+                },
+                "country": "United States"
+            },
+            "macAddress": "79:15:78:99:60:aa",
+            "university": "Ohio State University",
+            "bank": {
+                "cardExpire": "02/27",
+                "cardNumber": "6737807858721625",
+                "cardType": "Elo",
+                "currency": "SEK",
+                "iban": "83IDT77FWYLCJVR8ISDACFH0"
+            },
+            "company": {
+                "department": "Support",
+                "name": "Spinka - Dickinson",
+                "title": "Support Specialist",
+                "address": {
+                    "address": "395 Main Street",
+                    "city": "Los Angeles",
+                    "state": "New Hampshire",
+                    "stateCode": "NH",
+                    "postalCode": "73442",
+                    "coordinates": {
+                        "lat": 79.098326,
+                        "lng": -119.624845
+                    },
+                    "country": "United States"
+                }
+            },
+            "ein": "912-602",
+            "ssn": "108-953-962",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/97.0.1072.76 Safari/537.36",
+            "crypto": {
+                "coin": "Bitcoin",
+                "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+                "network": "Ethereum (ERC20)"
+            },
+            "role": "admin"
+        },
+        {
+            "id": 104,
+            "firstName": "Michael",
+            "lastName": "Johnson",
+            "maidenName": "",
+            "age": 24,
+            "gender": "male",
+            "email": "michael.johnson@x.dummyjson.com",
+            "phone": "+92 290-825-4767",
+            "username": "michaelj",
+            "password": "michaeljpass",
+            "birthDate": "2000-1-6",
+            "image": "https://dummyjson.com/icon/michaelj/128",
+            "bloodGroup": "A+",
+            "height": 164.38,
+            "weight": 97.18,
+            "eyeColor": "Red",
+            "hair": {
+                "color": "White",
+                "type": "Curly"
+            },
+            "ip": "115.37.119.66",
+            "address": {
+                "address": "1252 Washington Street",
+                "city": "Phoenix",
+                "state": "Maryland",
+                "stateCode": "MD",
+                "postalCode": "64002",
+                "coordinates": {
+                    "lat": -79.040825,
+                    "lng": 100.576804
+                },
+                "country": "United States"
+            },
+            "macAddress": "29:bc:a7:64:58:48",
+            "university": "University of Miami",
+            "bank": {
+                "cardExpire": "04/29",
+                "cardNumber": "2205427429854197",
+                "cardType": "Mir",
+                "currency": "NZD",
+                "iban": "6K4V5L5HGC4BR84RUB9PI41J"
+            },
+            "company": {
+                "department": "Marketing",
+                "name": "Wisozk, Schamberger and Huels",
+                "title": "Systems Analyst",
+                "address": {
+                    "address": "378 Madison Street",
+                    "city": "Columbus",
+                    "state": "South Dakota",
+                    "stateCode": "SD",
+                    "postalCode": "34297",
+                    "coordinates": {
+                        "lat": -74.566078,
+                        "lng": -90.962102
+                    },
+                    "country": "United States"
+                }
+            },
+            "ein": "819-102",
+            "ssn": "924-462-933",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+            "crypto": {
+                "coin": "Bitcoin",
+                "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+                "network": "Ethereum (ERC20)"
+            },
+            "role": "user"
+        }
+    ],
+    "total": 2,
+    "skip": 0,
+    "limit": 2
+}
+19:51:34[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724682096&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=lcruMSrKjM5KuVZhXhbAQHWg2OwY2F9HYPXu5UydvAA%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1724682096&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=lcruMSrKjM5KuVZhXhbAQHWg2OwY2F9HYPXu5UydvAA%3D
+Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+X-Dns-Prefetch-Control=off
+X-Frame-Options=SAMEORIGIN
+Strict-Transport-Security=max-age=15552000; includeSubDomains
+X-Download-Options=noopen
+X-Content-Type-Options=nosniff
+X-Xss-Protection=1; mode=block
+X-Ratelimit-Limit=100
+X-Ratelimit-Remaining=93
+Date=Mon, 26 Aug 2024 14:21:36 GMT
+X-Ratelimit-Reset=1724682098
 Content-Type=application/json; charset=utf-8
 Etag=W/"b06-0OAtxgGjRmqyeOLOE1Ccee50oSY"
 Vary=Accept-Encoding
 Content-Encoding=gzip
 Transfer-Encoding=chunked
 Via=1.1 vegur
-20:41:40[main] INFO  uiLogger - Test method passed: getSearchUser
-20:41:40[main] INFO  uiLogger - Starting test method: getSingleUser
-20:41:41[main] INFO  uiLogger - Running test method: getSingleUser
-20:41:41[main] INFO  uiLogger - *** Response Status Code ***: 200
-20:41:41[main] INFO  uiLogger - *** Response Body ***: {
+19:51:34[main] INFO  uiLogger - Test method passed: getSearchUser
+19:51:34[main] INFO  uiLogger - Starting test method: getSingleUser
+19:51:36[main] INFO  uiLogger - *** Response Status Code ***: 200
+19:51:36[main] INFO  uiLogger - *** Response Body ***: {
     "id": 1,
     "firstName": "Emily",
     "lastName": "Johnson",
@@ -94,9 +265,9 @@ Via=1.1 vegur
     },
     "role": "admin"
 }
-20:41:41[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
-Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723907501&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=RtpnZPPUpMVBE4pHznFoENXaK8wb0lPtJ7rxtnj4Kgw%3D"}]}
-Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723907501&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=RtpnZPPUpMVBE4pHznFoENXaK8wb0lPtJ7rxtnj4Kgw%3D
+19:51:36[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724682097&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TZsML%2BgzGkRmI%2F32ZNs639BAnccwTl0ANIjbkWRnXR8%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1724682097&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TZsML%2BgzGkRmI%2F32ZNs639BAnccwTl0ANIjbkWRnXR8%3D
 Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection=keep-alive
 Access-Control-Allow-Origin=*
@@ -107,20 +278,19 @@ X-Download-Options=noopen
 X-Content-Type-Options=nosniff
 X-Xss-Protection=1; mode=block
 X-Ratelimit-Limit=100
-X-Ratelimit-Remaining=97
-Date=Sat, 17 Aug 2024 15:11:41 GMT
-X-Ratelimit-Reset=1723907510
+X-Ratelimit-Remaining=99
+Date=Mon, 26 Aug 2024 14:21:37 GMT
+X-Ratelimit-Reset=1724682108
 Content-Type=application/json; charset=utf-8
 Etag=W/"57b-eBF3JfwanM/U4Wy609CPdIf9zRA"
 Vary=Accept-Encoding
 Content-Encoding=gzip
 Transfer-Encoding=chunked
 Via=1.1 vegur
-20:41:41[main] INFO  uiLogger - Test method passed: getSingleUser
-20:41:41[main] INFO  uiLogger - Starting test method: postProducts
-20:41:41[main] INFO  uiLogger - Running test method: postProducts
-20:41:42[main] INFO  uiLogger - *** Response Status Code ***: 201
-20:41:42[main] INFO  uiLogger - *** Response Body ***: {
+19:51:36[main] INFO  uiLogger - Test method passed: getSingleUser
+19:51:36[main] INFO  uiLogger - Starting test method: postProducts
+19:51:37[main] INFO  uiLogger - *** Response Status Code ***: 201
+19:51:37[main] INFO  uiLogger - *** Response Body ***: {
     "id": 195,
     "title": "Essence Mascara Lash Princess",
     "price": 9.99,
@@ -130,9 +300,9 @@ Via=1.1 vegur
     "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
     "category": "beauty"
 }
-20:41:42[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
-Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723907502&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=kRla2lRgpZxcd9CpfIKE%2B1%2FcrNKuwXWvtxnzSBPCehY%3D"}]}
-Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723907502&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=kRla2lRgpZxcd9CpfIKE%2B1%2FcrNKuwXWvtxnzSBPCehY%3D
+19:51:37[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724682098&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=C9iIN180eRT4HTfmfj30KsUBBS64IqpqxjQMnaqTKAw%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1724682098&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=C9iIN180eRT4HTfmfj30KsUBBS64IqpqxjQMnaqTKAw%3D
 Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection=keep-alive
 Access-Control-Allow-Origin=*
@@ -143,19 +313,18 @@ X-Download-Options=noopen
 X-Content-Type-Options=nosniff
 X-Xss-Protection=1; mode=block
 X-Ratelimit-Limit=100
-X-Ratelimit-Remaining=96
-Date=Sat, 17 Aug 2024 15:11:42 GMT
-X-Ratelimit-Reset=1723907510
+X-Ratelimit-Remaining=98
+Date=Mon, 26 Aug 2024 14:21:38 GMT
+X-Ratelimit-Reset=1724682108
 Content-Type=application/json; charset=utf-8
 Content-Length=327
 Etag=W/"147-6gg0JNfvhWv4BZfg7UVdHqNTXXY"
 Vary=Accept-Encoding
 Via=1.1 vegur
-20:41:42[main] INFO  uiLogger - Test method passed: postProducts
-20:41:42[main] INFO  uiLogger - Starting test method: postUserPost
-20:41:42[main] INFO  uiLogger - Running test method: postUserPost
-20:41:42[main] INFO  uiLogger - *** Response Status Code ***: 201
-20:41:42[main] INFO  uiLogger - *** Response Body ***: {
+19:51:37[main] INFO  uiLogger - Test method passed: postProducts
+19:51:37[main] INFO  uiLogger - Starting test method: postUserPost
+19:51:38[main] INFO  uiLogger - *** Response Status Code ***: 201
+19:51:38[main] INFO  uiLogger - *** Response Body ***: {
     "id": 252,
     "title": "His mother had always taught him",
     "body": "His mother had always taught him not to ever think of himself as better than others. He'd tried to live by this motto. He never looked down on those who were less fortunate or who had less money than him. But the stupidity of the group of people he was talking to made him change his mind.",
@@ -170,9 +339,9 @@ Via=1.1 vegur
         "dislikes": 25
     }
 }
-20:41:42[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
-Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1723907503&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=gGbMMQudBvvTOb4b6NJX3zDB1N0PNNM6cFMQaC7xy9E%3D"}]}
-Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1723907503&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=gGbMMQudBvvTOb4b6NJX3zDB1N0PNNM6cFMQaC7xy9E%3D
+19:51:38[main] INFO  uiLogger - *** Response Headers ***: Server=Cowboy
+Report-To={"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724682099&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=HTda8jxrkn5boWcP%2FKQKOu9mcqTye16whbaPgvwWcw0%3D"}]}
+Reporting-Endpoints=heroku-nel=https://nel.heroku.com/reports?ts=1724682099&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=HTda8jxrkn5boWcP%2FKQKOu9mcqTye16whbaPgvwWcw0%3D
 Nel={"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection=keep-alive
 Access-Control-Allow-Origin=*
@@ -183,12 +352,35 @@ X-Download-Options=noopen
 X-Content-Type-Options=nosniff
 X-Xss-Protection=1; mode=block
 X-Ratelimit-Limit=100
-X-Ratelimit-Remaining=95
-Date=Sat, 17 Aug 2024 15:11:43 GMT
-X-Ratelimit-Reset=1723907510
+X-Ratelimit-Remaining=97
+Date=Mon, 26 Aug 2024 14:21:39 GMT
+X-Ratelimit-Reset=1724682108
 Content-Type=application/json; charset=utf-8
 Content-Length=443
 Etag=W/"1bb-VSoruo33L3NuPn7W3/LPijIbqrI"
 Vary=Accept-Encoding
 Via=1.1 vegur
-20:41:42[main] INFO  uiLogger - Test method passed: postUserPost
+19:51:38[main] INFO  uiLogger - Test method passed: postUserPost
+21:22:47[main] INFO  uiLogger - Starting test method: uiTestCase
+21:22:47[main] INFO  uiLogger - Test method passed: uiTestCase
+21:37:02[main] INFO  uiLogger - Starting test method: uiTestCase
+21:37:02[main] INFO  uiLogger - Test method passed: uiTestCase
+21:54:36[main] INFO  uiLogger - Starting test method: uiTestCase
+21:54:36[main] INFO  uiLogger - Test method passed: uiTestCase
+22:07:30[main] INFO  uiLogger - Starting test method: uiTestCase
+22:07:30[main] INFO  uiLogger - Test method passed: uiTestCase
+22:21:39[main] INFO  uiLogger - Starting test method: uiTestCase
+22:21:39[main] INFO  uiLogger - Test method passed: uiTestCase
+22:26:37[main] INFO  uiLogger - Starting test method: uiTestCase
+22:26:37[main] INFO  uiLogger - Test method passed: uiTestCase
+22:29:45[main] INFO  uiLogger - Starting test method: uiTestCase
+22:29:45[main] INFO  uiLogger - Test method passed: uiTestCase
+22:33:56[main] INFO  uiLogger - Starting test method: uiTestCase
+22:33:56[main] INFO  uiLogger - Test method passed: uiTestCase
+22:13:22[main] INFO  uiLogger - Starting test method: SecurityTest
+22:13:22[main] ERROR uiLogger - Test method failed: SecurityTest
+22:13:23[main] ERROR uiLogger - Test method failed: SecurityTest
+22:22:58[main] INFO  uiLogger - Starting test method: SecurityTest
+22:23:01[main] INFO  uiLogger - Test method passed: SecurityTest
+22:23:01[main] INFO  uiLogger - Starting test method: testSqlInjection
+22:23:03[main] INFO  uiLogger - Test method passed: testSqlInjection
